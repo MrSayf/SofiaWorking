@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
+  	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -33,7 +33,11 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
 <!--===============================================================================================-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
+
  <!-- Swiper CSS -->
  <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
@@ -104,6 +108,17 @@
       </div>
     </div>
   </div>
+  <div class="wrapper small"  >
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#"><i class="fas fa-comments"></i></a></li>
+        <li><a href="#"><i class="fas fa-plus-circle"></i></a></li>
+        <li><a href="#"><i class="fas fa-bell"></i></a></li>
+        <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+      </ul>
+  </nav>
+</div>
 </section>
 </body>
 </html>
