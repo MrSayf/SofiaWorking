@@ -46,69 +46,66 @@
 
 
  <!-- Link Swiper's CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+ <style>
+    .gradient-custom-2 {
+/* fallback for old browsers */
+background: #fbc2eb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+}
+ </style>
 </head>
 <body>
-<section class="h-100 gradient-form" style="background-color: #eee;">
+<section class="h-100 gradient-custom-2">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-xl-10">
-        <div class="card rounded-3 text-black">
-          <div class="row g-0">
-            <div class="col-lg-6">
-              <div class="card-body p-md-5 mx-md-4">
-
-                <div class="text-center">
-                  <img src="images/icons/logo-01.png"
-                    style="width: 185px;" alt="logo">
-                  <h4 class="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
-                </div>
-
-                <form>
-                  <p>Please login to your account</p>
-
-                  <div class="form-outline mb-4">
-                    <input type="email" id="form2Example11" class="form-control"
-                      placeholder="Phone number or email address" />
-                    <label class="form-label" for="form2Example11">Username</label>
-                  </div>
-
-                  <div class="form-outline mb-4">
-                    <input type="password" id="form2Example22" class="form-control" />
-                    <label class="form-label" for="form2Example22">Password</label>
-                  </div>
-
-                  <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
-                      in</button>
-                    <a class="text-muted" href="#!">Forgot password?</a>
-                  </div>
-
-                  <div class="d-flex align-items-center justify-content-center pb-4">
-                    <p class="mb-0 me-2">Don't have an account?</p>
-                    <button type="button" class="btn btn-outline-danger">Create new</button>
-                  </div>
-                  
-
-                </form>
-
+      <div class="col col-lg-9 col-xl-7">
+        <div class="card">
+          <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
+          
+            <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+              <img src="images/27.jpg" alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
+                style="width: 150px; z-index: 1">
+             
+            </div>
+            <div class="ms-3" style="margin-top: 130px;">
+              <h5>Sophia</h5>
+              <p>@glatzekatze</p>
+              <div id="u8" class="ax_default image">
+        <img id="u8_img" class="img " src="https://d1icd6shlvmxi6.cloudfront.net/gsc/I1S9UP/27/b8/c5/27b8c5f77b7947daa9e611355a9a04ff/images/1_2_2_profile_overview/u8.svg?pageId=5f84df3c-90c8-46c5-b0d7-9a30ae3d200f">
+        <div id="u8_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+            </div>
+          </div>
+          <div class="p-4 text-black" style="background-color: #f8f9fa;">
+            
+          </div>
+          <div class="card-body p-4 text-black">
+            <div class="mb-5">
+              
+              <div class="p-4" style="background-color: #f8f9fa;">
+                <p class="font-italic mb-1"><a href="#">Favorites</a></p>
+                <p class="font-italic mb-1"><a href="#">Reviews</a></p>
+                <p class="font-italic mb-1"><a href="#">My Products</a></p>
+                <p class="font-italic mb-1"><a href="#">Rented Products</a></p>
+                <p class="font-italic mb-1"><a href="#">Stats</a></p>
+                
               </div>
             </div>
-            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h4 class="mb-4">We are more than just a company</h4>
-                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="wrapper small"  >
+  <div class="wrapper small" >
     <nav>
       <ul>
         <li><a href="#"><i class="fas fa-home"></i></a></li>
@@ -118,7 +115,7 @@
         <li><a href="login.php"><i class="fas fa-user-circle"></i></a></li>
       </ul>
   </nav>
-</div>
+    </div>
 </section>
 </body>
 </html>

@@ -2417,14 +2417,14 @@
 	<?php
   include 'footer.php';
   ?>
-  <div class="wrapper small"  >
+  <div class="wrapper small">
     <nav>
       <ul>
         <li><a href="#"><i class="fas fa-home"></i></a></li>
         <li><a href="#"><i class="fas fa-comments"></i></a></li>
         <li><a href="#"><i class="fas fa-plus-circle"></i></a></li>
         <li><a href="#"><i class="fas fa-bell"></i></a></li>
-        <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+        <li><a href="login.php"><i class="fas fa-user-circle"></i></a></li>
       </ul>
   </nav>
 </div>

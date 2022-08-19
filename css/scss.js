@@ -10,3 +10,4 @@ button.addEventListener('click', () => {
         wrapper.classList.add('medium');
     }
 });
+

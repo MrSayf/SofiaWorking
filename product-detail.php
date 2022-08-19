@@ -10,7 +10,7 @@
 	
 
 
-	<!-- breadcrumb -->
+	<!-- breadcrumb 
 	<div class="container">
 		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
 			<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
@@ -27,7 +27,7 @@
 				Lightweight Jacket
 			</span>
 		</div>
-	</div>
+	</div>-->
 		
 
 	<!-- Product Detail -->
@@ -635,7 +635,17 @@
 	<?php
   include 'footer.php';
   ?>
-
+<div class="wrapper small">
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#"><i class="fas fa-comments"></i></a></li>
+        <li><a href="#"><i class="fas fa-plus-circle"></i></a></li>
+        <li><a href="#"><i class="fas fa-bell"></i></a></li>
+        <li><a href="login.php"><i class="fas fa-user-circle"></i></a></li>
+      </ul>
+  </nav>
+</div>
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
