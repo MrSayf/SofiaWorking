@@ -74,7 +74,7 @@ background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238
              
             </div>
             <div class="ms-3" style="margin-top: 130px;">
-              <h5>Sophia</h4>
+              <h5>Sophia</h5>
               <p>@glatzekatze</p>
               <div id="u8" class="ax_default image">
         <img id="u8_img" class="img " src="https://d1icd6shlvmxi6.cloudfront.net/gsc/I1S9UP/27/b8/c5/27b8c5f77b7947daa9e611355a9a04ff/images/1_2_2_profile_overview/u8.svg?pageId=5f84df3c-90c8-46c5-b0d7-9a30ae3d200f">
